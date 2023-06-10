@@ -11,16 +11,9 @@ Tecnologias Utilizadas neste desafio:
 
 Swift: Linguagem de programação utilizada para desenvolvimento iOS.
 
-View Code: Abordagem de desenvolvimento de interface de usuário sem o uso de Interface Builder, criando as views programaticamente.
+View Code: Abordagem de desenvolvimento de interface de usuário sem o uso de Interface Builder, criando as views programaticamente. 
 
-MVC (Model-View-Controller): Padrão de arquitetura utilizado para separar as responsabilidades das diferentes partes do aplicativo.
+Captura de tela do desafio:
 
-Captura de Tela do Primeiro Dia de Desafio:
-
-
-![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/b9d4ca72-6eb0-456d-b3de-c7e876de32f7)
-
-
-Segundo dia:
-
-![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/d7ee9fdf-a507-411b-86b8-4534cff0e2dd)
+ 
+ ![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/f4269583-b4bc-47df-824b-4557cc796e31)
