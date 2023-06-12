@@ -70,7 +70,7 @@ class HomeVC: UIViewController {
         self.configTableViewProtocols(delegate: self, dataSource: self)
         self.service.fetchPopularMovies { [weak self] result in
             switch result {
-                case .success(let model): DispatchQueue.main.async {
+                case .success(let model): DispatchQueue.main.async {// realiza a alteração de layout na main thread
                         self?.updateUI(with: model)
                     }
                 case .failure(let error):
