@@ -17,3 +17,7 @@ Captura de tela do desafio:
 
  
  ![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/f4269583-b4bc-47df-824b-4557cc796e31)
+ 
+ 
+ ![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/8719efde-2eb1-4d7b-9526-8bee49b7a4e9)
+
