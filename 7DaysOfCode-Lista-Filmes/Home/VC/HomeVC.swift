@@ -13,7 +13,7 @@ class HomeVC: UIViewController {
     lazy var tableView: UITableView = {
         let tableView = UITableView(frame: .zero, style: .plain)
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        tableView.allowsSelection = false
+//        tableView.allowsSelection = false
         tableView.backgroundColor = .clear
         tableView.separatorStyle = .none
         tableView.register(MovieDetailTableViewCell.self, forCellReuseIdentifier: MovieDetailTableViewCell.identifier)
@@ -70,7 +70,7 @@ class HomeVC: UIViewController {
         self.configTableViewProtocols(delegate: self, dataSource: self)
         self.service.fetchPopularMovies { [weak self] result in
             switch result {
-                case .success(let model): DispatchQueue.main.async {// realiza a alteração de layout na main thread
+                case .success(let model): DispatchQueue.main.async { // realiza a alteração de layout na main thread
                         self?.updateUI(with: model)
                     }
                 case .failure(let error):
@@ -97,5 +97,12 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
         cell?.backgroundColor = .clear
         cell?.textLabel?.textColor = .white
         return cell ?? UITableViewCell()
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("index: \(self.data[indexPath[1]])")
+        let vc = MovieDetailVC()
+        vc.movie = self.data[indexPath[1]]
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
