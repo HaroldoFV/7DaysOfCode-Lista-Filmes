@@ -13,11 +13,10 @@ Swift: Linguagem de programação utilizada para desenvolvimento iOS.
 
 View Code: Abordagem de desenvolvimento de interface de usuário sem o uso de Interface Builder, criando as views programaticamente. 
 
-Captura de tela do desafio:
+Captura de telas do desafio:
+ 
+ ![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/89199008-b88c-466a-961f-036002ae9ea1)
 
- 
- ![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/f4269583-b4bc-47df-824b-4557cc796e31)
- 
- 
- ![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/8719efde-2eb1-4d7b-9526-8bee49b7a4e9)
+
+![image](https://github.com/HaroldoFV/7DaysOfCode-Lista-Filmes/assets/9435165/19ab0bfc-b1a9-409e-af0b-e69d0f094783)
 
