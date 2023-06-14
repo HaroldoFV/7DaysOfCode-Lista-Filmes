@@ -100,9 +100,8 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("index: \(self.data[indexPath[1]])")
-        let vc = MovieDetailVC()
-        vc.movie = self.data[indexPath[1]]
+//        print("index: \(self.data[indexPath.row])")
+        let vc = MovieDetailVC(movie: self.data[indexPath.row])
         navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -26,13 +26,15 @@ class MovieDetailTableViewCell: UITableViewCell {
         label.textColor = .white
         label.font = UIFont.boldSystemFont(ofSize: 13)
         label.textAlignment = .center
+        label.textColor = .white.withAlphaComponent(0.75)
         return label
     }()
 
     lazy var movieImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFill
+        imageView.layer.cornerRadius = 18.0
+        imageView.layer.masksToBounds = true
         imageView.backgroundColor = .red
         return imageView
     }()
